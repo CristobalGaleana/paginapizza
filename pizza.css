@@ -1,0 +1,118 @@
+/* Estilos globales de la página */
+body{background-color: #740d0d;}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    margin: 0;
+  }
+  
+  /* Estilos para la barra de navegación */
+  header {
+    background-color: #af0c0c;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  /* Estilo imagen*/
+  #imagen-rotacion {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #imagen-rotacion img {
+    width: 100%;
+    height: auto;
+}
+  
+  /* Estilos para los botones */
+  #botones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .boton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .boton i {
+    font-size: 30px;
+  }
+  
+  .boton span {
+    margin-top: 5px;
+  }
+  
+  /* Estilos para la sección de la imagen de pizza y la información de la pizzería */
+  #informacion {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  #informacion img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  #informacion .nombre-pizzeria h2 {
+    font-weight: bold;
+  }
+
+
+
+
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .menu-item {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    border: 1px solid #1a1515;
+    padding: 10px;
+    text-align: center
+
+
+  }
+  
+  .menu-item img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+  }
+  
+  .menu-item button {
+    display: block;
+    margin-top: 10px;
+
+  }  
+  
+  /* Otros estilos de la página */
+  /* ... */  
